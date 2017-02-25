@@ -1,0 +1,309 @@
+html, body, img{
+	margin:0;
+	padding:0;
+}
+body{
+background-color:rgb(117, 30, 30);
+}
+.main{
+	max-width:1200px;
+	margin:0 auto;
+	background:white;
+}
+.header{
+	text-align:center;
+	width:100%;
+	min-height:100px;
+}
+#logo{
+display:none;	
+}
+#menu{
+	/* убрать маркер */
+	list-style:none;
+	/* делаем меню горизонтальным */
+	display:inline-block;
+	position:relative;
+    width:1160px;
+    height:50px;
+    background:black;
+}
+.picturename{
+  text-align: center;  
+    position:relative;
+    top:-25px;
+}
+.text{
+  text-align: center;
+    position:relative;
+    top:-15px;
+}
+
+.kartiny1{
+    width:225px;
+    height:310px;
+    display:inline-block;
+    position:relative;
+    font-style:italic;
+    margin:2% 0 0 2%;
+}
+.kartiny{
+    width:225px;
+    height:300px;
+    display:inline-block;
+    position:relative;
+    border:1px dashed black;
+    font-style:italic;
+    margin:2% 0 0 2%;
+    top:-20px;
+}
+.foto{
+	width:65%;
+	margin-left:18%;
+}
+.new{
+width: 96%;
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+line-height: 135px;
+margin: 0px;
+padding: 0px;
+    margin:2% 0% 0% 0%;
+        
+
+}
+.old{
+width: 96%;
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+line-height: 135px;
+margin: 0px;
+padding: 0px;
+    position:relative;
+top:60px;
+    
+}
+
+.glavnaya{
+	width:150px;
+	height:50px;
+	background:black;
+    position:relative;
+    display:inline-block;
+    left:300px;
+}
+#txt1{
+    width:150px;
+    height:40px;
+    color:white;
+    text-align:center;
+    vertical-align:20px;
+    position:relative;
+    top:-15px;
+}
+#nextst{
+	/* убрать маркер */
+	list-style:none;
+	/* делаем меню горизонтальным */
+	display:inline-block;
+	position:relative;
+    width:100%;
+    height:35px;
+    left:150px;
+/*    background: green;*/
+}
+#txt2{
+    width:150px;
+    height:40px;
+    color:black;
+    text-align:center;
+    vertical-align:20px;
+    position:relative;
+    top:-15px;
+}
+#txt3{
+    width:150px;
+    height:40px;
+    color:white;
+    text-align:center;
+    vertical-align:20px;
+    position:relative;
+    top:-15px;
+}
+a{
+     text-decoration:none;   
+}
+.shiwopis{
+	width:160px;
+	height:50px;
+	background:white;
+    text-decoration-color: black;
+    position:relative;
+    display:inline-block;
+    left:320
+}
+.kontakts{
+	width:150px;
+	height:50px;
+	background:black;
+    left:250px;
+    position:relative;
+    display:inline-block;
+    left:340;
+}
+#vnacalo{
+    text-align:center;
+    color:#696969;
+}
+.vnacalo{
+	width:65px;
+	height:35px;
+    position:relative;
+    display:inline-block;
+    left:50px;
+}
+#nazad{ 
+    text-align:center;
+    color:#696969;
+}
+.nazad{
+	width:45px;
+	height:35px;
+    left:250px;
+    position:relative;
+    display:inline-block;
+    left:55;
+}
+#a1{
+        text-align:center;
+    color:#696969;
+
+}
+.a1{
+	width:35px;
+	height:35px;
+    left:250px;
+    position:relative;
+    display:inline-block;
+    left:60;
+}
+#a2{   
+ background-color:#708090;   
+    text-align:center;
+    color:	#FFFAF0;
+}
+.a2{
+	width:35px;
+	height:35px;
+    left:250px;
+    position:relative;
+    display:inline-block;
+    left:70;
+}
+#vpered{
+    text-align:center;
+    color:#696969;
+}
+.vpered{
+	width:50px;
+	height:35px;
+    left:250px;
+    position:relative;
+    display:inline-block;
+    left:75;
+}
+p#vnacalo:hover{
+    background-color:rgb(220,220,220);
+}
+p#nazad:hover{
+    background-color:rgb(220,220,220);
+}
+p#a1:hover{
+    background-color:rgb(220,220,220);
+}
+p#vpered:hover{
+    background-color:rgb(220,220,220);
+}
+div.kartiny:hover{
+    background-color:rgba(200,200,200,0.5);
+}
+h1#txt1:hover{
+    color:black;
+}
+h1#txt2:hover{
+    color:black;
+}
+h1#txt3:hover{
+    color:black;
+}
+div.glavnaya:hover{
+	background:white;
+}
+div.shiwopis:hover{
+	background:white;
+}
+div.kontakts:hover{
+	background:white;
+}
+@media screen and (max-width: 1217px){
+#menu{
+        width:96%;
+    }
+    img{
+        max-width:95%;
+        height:auto;
+        left:0px;
+    }
+    #nextst{
+        left:100px;
+    }
+    .kartiny1{
+        left:100px;
+    }	
+}
+@media screen and (max-width: 1100px){
+#menu{
+        width:96%;
+    }
+    img{
+        max-width:95%;
+        height:auto;
+        left:0px;
+    }
+    #nextst{
+        left:100px;
+    }
+    .kartiny1{
+        left:100px;
+    }
+        .glavnaya{
+       left:150px;
+    }
+    .shiwopis{
+        left:245px;
+    }
+    .kontakts{
+        left:340px;
+    }
+      
+}
+@media screen and (max-width: 480px){
+	.headder{
+		min-height:30px;
+	}
+	.header img{
+		display:none;
+	}
+	#logo{
+		display:block;
+	}
+	.old{
+		width:95%;
+		margin:2%;
+	}
+}
+	
+	
+}

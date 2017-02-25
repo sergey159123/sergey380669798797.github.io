@@ -1,0 +1,476 @@
+html, body, img{
+	margin:0;
+	padding:0;
+}
+body{
+background-color:rgb(117, 30, 30);
+}
+.main{
+	max-width:1200px;
+	margin:0 auto;
+	background:white;
+}
+.header{
+	text-align:center;
+	width:100%;
+	min-height:100px;
+}
+#logo{
+display:none;	
+}
+.a{
+     width:300px;
+    height:50px;
+    color:white;
+    text-align:center;
+    position:relative;
+    top:-3px;
+}
+#menu{
+	/* убрать маркер */
+	list-style:none;
+	/* делаем меню горизонтальным */
+	display:inline-block;
+	position:relative;
+    width:1160px;
+    height:50px;
+    background:black;
+}
+.back{
+    width:300px;
+    height:50px;
+    position:relative;
+    left:800px;
+    display: inline-block;
+    background-color:rgb(140, 140, 140);
+    top:55px;
+    text-align:center;
+}
+.name{
+    width:200px;
+    height:50px;
+    text-align:center;
+    display: inline-block;
+    position:relative;
+    top:-215px;
+    left:10px;
+    
+}
+.name2{
+   display: inline-block;
+    width:400px;
+    height:30px;
+    position:relative;
+    top:-185px;
+    left:-195px;
+    
+}
+.sidebar{
+	width:30%;
+	background:red;
+	float:left;
+}
+.kartiny1{
+    width:312px;
+    height:500px;
+    display:inline-block;
+    position:relative;
+    font-style:italic;
+    margin:2% 0 0 2%;
+}
+.kartiny{
+    width:312px;
+    height:240px;
+    display:inline-block;
+    position:relative;
+    font-style:italic;
+    margin:2% 0 0 2%;
+    top:-20px;
+}
+.new{
+width: 96%;
+display: table-cell;
+vertical-align: middle;
+line-height: 135px;
+margin: 0px;
+padding: 0px;
+    margin:2% 0% 0% 2%;
+        
+
+}
+.old{
+width: 96%;
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+line-height: 135px;
+margin: 0px;
+padding: 0px;
+    position:relative;
+top:60px;
+    
+}
+
+.glavnaya{
+	width:150px;
+	height:50px;
+	background:black;
+    position:relative;
+    display:inline-block;
+    left:300px;
+}
+#txt1{
+    width:150px;
+    height:40px;
+    color:white;
+    text-align:center;
+    vertical-align:20px;
+    position:relative;
+    top:-15px;
+}
+#nextst{
+	/* убрать маркер */
+	list-style:none;
+	/* делаем меню горизонтальным */
+	display:inline-block;
+	position:relative;
+    width:100%;
+    height:35px;
+}
+#txt2{
+    width:150px;
+    height:40px;
+    color:black;
+    text-align:center;
+    vertical-align:20px;
+    position:relative;
+    top:-15px;
+}
+#txt3{
+    width:150px;
+    height:40px;
+    color:white;
+    text-align:center;
+    vertical-align:20px;
+    position:relative;
+    top:-15px;
+}
+a{
+     text-decoration:none;   
+}
+.shiwopis{
+	width:160px;
+	height:50px;
+	background:white;
+    text-decoration-color: black;
+    position:relative;
+    display:inline-block;
+    left:320
+}
+.kontakts{
+	width:150px;
+	height:50px;
+	background:black;
+    left:250px;
+    position:relative;
+    display:inline-block;
+    left:340;
+}
+#vnacalo{
+    text-align:center;
+    color:#696969;
+}
+.vnacalo{
+	width:65px;
+	height:35px;
+    position:relative;
+    display:inline-block;
+    left:50px;
+}
+#nazad{ 
+    text-align:center;
+    color:#696969;
+}
+.nazad{
+	width:45px;
+	height:35px;
+    left:250px;
+    position:relative;
+    display:inline-block;
+    left:55;
+}
+#a1{
+ background-color:#708090;   
+    text-align:center;
+    color:	#FFFAF0;
+}
+.a1{
+	width:35px;
+	height:35px;
+    left:250px;
+    position:relative;
+    display:inline-block;
+    left:60;
+}
+#a2{   
+    text-align:center;
+    color:#696969;
+}
+.a2{
+	width:35px;
+	height:35px;
+    left:250px;
+    position:relative;
+    display:inline-block;
+    left:70;
+}
+#vpered{
+    text-align:center;
+    color:#696969;
+}
+.vpered{
+	width:50px;
+	height:35px;
+    left:250px;
+    position:relative;
+    display:inline-block;
+    left:75;
+}
+div.back:hover{
+    background: black;
+}
+p#vnacalo:hover{
+    background-color:rgb(220,220,220);
+}
+p#nazad:hover{
+    background-color:rgb(220,220,220);
+}
+p#a2:hover{
+    background-color:rgb(220,220,220);
+}
+p#vpered:hover{
+    background-color:rgb(220,220,220);
+}
+div.kartiny:hover{
+    background-color:rgba(200,200,200,0.5);
+}
+h1#txt1:hover{
+    color:black;
+}
+h1#txt2:hover{
+    color:black;
+}
+h1#txt3:hover{
+    color:black;
+}
+div.glavnaya:hover{
+	background:white;
+}
+div.shiwopis:hover{
+	background:white;
+}
+div.kontakts:hover{
+	background:white;
+}
+@media screen and (max-width: 1100px){
+#menu{
+        width:96%;
+
+    }
+    img{
+        max-width:95%;
+        height:auto;
+        left:0px;
+    }
+    .back{
+        left:500px;
+        font-size:150%;
+    }
+    #nextst{
+        left:250px;
+    }
+    .kartiny1{
+        left:250px;
+    }	
+    .kartiny1{
+    width:700px;
+    height:800px;
+        left:0px;
+        top:50px;
+}
+.kartiny{
+    width:700px;
+    height:500px;
+         left:0px;
+}
+    .name{
+        width:500px;
+        height:500px;
+    position:absolute;
+    top:950px;
+    left:240px;
+        font-size:250%;
+    
+}
+.name2{
+    position:absolute;
+    top:1020px;
+    left:350px;
+         font-size:250%;
+}
+}
+@media screen and (max-width: 980px){
+#menu{
+        width:96%;
+    
+    }
+    img{
+        max-width:95%;
+        height:auto;
+        left:0px;
+    }
+    #nextst{
+        left:100px;
+    }
+     .back{
+        left:200px;
+        font-size:150%;
+    }
+    .kartiny1{
+        left:50px;
+    }
+    .glavnaya{
+       left:150px;
+    }
+    .shiwopis{
+        left:245px;
+    }
+    .kontakts{
+        left:340px;
+    }
+      
+}
+@media screen and (max-width: 1100px){
+#menu{
+        width:96%;
+    }
+    img{
+        max-width:95%;
+        height:auto;
+        left:0px;
+    }
+    .back{
+        left:500px;
+        font-size:150%;
+    }
+    #nextst{
+        left:250px;
+    }
+    .kartiny1{
+        left:250px;
+    }	
+    .kartiny1{
+    width:700px;
+    height:800px;
+        left:0px;
+        top:50px;
+}
+.kartiny{
+    width:700px;
+    height:500px;
+         left:0px;
+}
+    .name{
+        width:500px;
+        height:500px;
+    position:absolute;
+    top:950px;
+    left:240px;
+        font-size:250%;
+    
+}
+.name2{
+    position:absolute;
+    top:1020px;
+    left:350px;
+         font-size:250%;
+}
+}
+@media screen and (max-width: 980px){
+#menu{
+        width:96%;
+    }
+    img{
+        max-width:95%;
+        height:auto;
+        left:0px;
+    }
+     .back{
+        left:200px;
+    font-size:150%;
+    }
+    .kartiny1{
+        left:50px;
+    }
+    .glavnaya{
+       left:150px;
+    }
+    .shiwopis{
+        left:245px;
+    }
+    .kontakts{
+        left:340px;
+    }
+      
+}
+@media screen and (max-width: 1220px){
+#menu{
+        width:96%;
+    }
+    img{
+        max-width:95%;
+        height:auto;
+        left:0px;
+    }
+    .a{
+        width:400px;
+    text-align:center;
+    position:relative;
+    top:-10px;
+    left:-25px;
+}
+    .back{
+        left:620px;
+      font-size:150%;
+    }
+    .kartiny1{
+        left:100px;
+    }	
+    .kartiny1{
+    width:700px;
+    height:800px;
+        left:100px;
+        top:50px;
+}
+.kartiny{
+    width:700px;
+    height:525px;
+         left:0px;
+}
+    .name{
+        width:500px;
+        height:500px;
+    position:absolute;
+    top:950px;
+    left:230px;
+        font-size:250%;
+    
+}
+.name2{
+    width:600px;
+    position:absolute;
+    top:1020px;
+    left:260px;
+         font-size:250%;
+}	
+}
